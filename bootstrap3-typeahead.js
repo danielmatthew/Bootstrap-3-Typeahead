@@ -624,9 +624,6 @@
 
         blur: function (e) {
             if (!this.mousedover && !this.mouseddown && this.shown) {
-                if (this.selectOnBlur) {
-                    this.select();
-                }
                 this.hide();
                 this.focused = false;
                 this.keyPressed = false;
