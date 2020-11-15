@@ -728,7 +728,7 @@
         changeInputOnSelect: true,
         changeInputOnMove: true,
         openLinkInNewTab: false,
-        selectOnBlur: true,
+        selectOnBlur: false,
         showCategoryHeader: true,
         theme: "bootstrap3",
         themes: {
